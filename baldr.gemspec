@@ -13,7 +13,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Stanislav Spiridonov"]
   gem.email         = 'stanislav@spiridonov.pro'
 
-  gem.add_dependency 'activesupport', '~> 3.1'
+  gem.add_dependency 'activesupport', '~> 3.0.0'
+  gem.add_dependency 'i18n'
 
   gem.files         = `git ls-files lib/`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
